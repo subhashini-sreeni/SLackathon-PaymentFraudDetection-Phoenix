@@ -7,11 +7,11 @@ Payment fraud detection model
   - [What's the problem?](#whats-the-problem)
   - [How can technology help?](#how-can-technology-help)
   - [The idea](#the-idea)
- - [Demo video]
- - [The architecture]
- - [Long description]
- - [Project roadmap]
- - [Live demo]
+- [Demo video](#demo-video)
+- [The architecture](#the-architecture)
+- [Long description](#long-description)
+- [Project roadmap](#project-roadmap)
+- [Live demo](#live-demo)
 
 ## Short description
 
