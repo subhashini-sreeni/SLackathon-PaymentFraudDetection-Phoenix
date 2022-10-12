@@ -47,7 +47,7 @@ This approach does have a limitation that it is not feasible to come up with a N
   <li> geographical location of the transaction </li>
   <li> expenditure range or transaction amount and </li>
   <li> time-frame based transactions based on user’s input (like travel timelines) </li>
-
+</ol>
   
   
 ## Demo video
