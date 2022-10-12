@@ -36,8 +36,10 @@ The general design of fraud detection system is to design models based on Logist
 We propose to extend this solution further to develop neural networks based on the individual user’s previous transaction behaviour and develop a pattern around the user behaviour. Once a DNN or CNN model is formed, for every transaction that the user performs the pattern can be observed to flag such a transaction as the one which needs further investigation. 
 
 A transaction flagged for further investigation will lead to either <br>
-a)	Detecting as a fraudulent transaction or <br>
-b)	A new pattern for the neural network to learn by way of back propagation. <br>
+<ol>
+  <li> Detecting as a fraudulent transaction or </li>
+  <li>A new pattern for the neural network to learn by way of back propagation.</li>
+</ol>
 
 This approach does have a limitation that it is not feasible to come up with a NN (neural network) model for each user. Depending on the requirement of the Bank or Credit card company, such models can be created for users who are in high-risk zones. Classification of the high-risk zone can be based on: <br>
 a)	geographical location of the user <br>
