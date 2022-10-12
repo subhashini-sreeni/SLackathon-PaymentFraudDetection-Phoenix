@@ -35,15 +35,15 @@ The idea here is to build an inclusive system that not only imbibes the way the 
 The general design of fraud detection system is to design models based on Logistic regression, Liner SVM, Decision tree, Voting classifier, XGBoost etc., and compare their performances against the accuracy level provided by each model. The high accuracy model will be the desired one. 
 We propose to extend this solution further to develop neural networks based on the individual user’s previous transaction behaviour and develop a pattern around the user behaviour. Once a DNN or CNN model is formed, for every transaction that the user performs the pattern can be observed to flag such a transaction as the one which needs further investigation. 
 
-A transaction flagged for further investigation will lead to either 
-a)	Detecting as a fraudulent transaction or 
-b)	A new pattern for the neural network to learn by way of back propagation.
+A transaction flagged for further investigation will lead to either <br>
+a)	Detecting as a fraudulent transaction or <br>
+b)	A new pattern for the neural network to learn by way of back propagation. <br>
 
-This approach does have a limitation that it is not feasible to come up with a NN (neural network) model for each user. Depending on the requirement of the Bank or Credit card company, such models can be created for users who are in high-risk zones. Classification of the high-risk zone can be based on: 
-a)	geographical location of the user
-b)	geographical location of the transaction
-c)	expenditure range or transaction amount and
-d)	time-frame based transactions based on user’s input (like travel timelines)
+This approach does have a limitation that it is not feasible to come up with a NN (neural network) model for each user. Depending on the requirement of the Bank or Credit card company, such models can be created for users who are in high-risk zones. Classification of the high-risk zone can be based on: <br>
+a)	geographical location of the user <br>
+b)	geographical location of the transaction <br>
+c)	expenditure range or transaction amount and <br>
+d)	time-frame based transactions based on user’s input (like travel timelines) <br>
 
 
 ## Demo video
