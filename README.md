@@ -53,7 +53,7 @@ This approach does have a limitation that it is not feasible to come up with a N
 ## Demo video
 
 ## The architecture
-![Video transcription/translation app](https://github.com/subhashini-sreeni/SLackathon-PaymentFraudDetection-Phoenix/blob/2ce06e821cb5faeb0a9d45f79562e9e2631c88bc/Prephase%20-%20Generic%20scenario%20model%20selection.png)
+![Video transcription/translation app]([https://github.com/subhashini-sreeni/SLackathon-PaymentFraudDetection-Phoenix/blob/2ce06e821cb5faeb0a9d45f79562e9e2631c88bc/Prephase%20-%20Generic%20scenario%20model%20selection.png](https://github.com/subhashini-sreeni/SLackathon-PaymentFraudDetection-Phoenix/blob/2c4397f56b3e62fcb452ee3264710a040afd346b/architecture/Prephase%20-%20Generic%20scenario%20model%20selection.png))
 
 
 ![Video transcription/translation app](https://github.com/subhashini-sreeni/SLackathon-PaymentFraudDetection-Phoenix/blob/6891e422d4373dce9b1d7b48141422af5a316040/Prephase%20-%20single%20user%20model%20selection.png)
