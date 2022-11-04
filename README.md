@@ -9,7 +9,7 @@ Payment fraud detection model
   - [The idea](#the-idea)
 - [Demo video](#demo-video)
 - [The architecture and the flow](#the-architecture)
-- [Long description](#long-description)
+- [Implementation](#implementation)
 - [Project roadmap](#project-roadmap)
 - [Contributors](#contributors)
 
@@ -60,7 +60,16 @@ This approach does have a limitation that it is not feasible to come up with a N
 
 ![Video transcription/translation app](https://github.com/subhashini-sreeni/SLackathon-PaymentFraudDetection-Phoenix/blob/6891e422d4373dce9b1d7b48141422af5a316040/Execution%20Phase.png)
 
-## Long description
+## Implementation
+The dataset has been downloaded from kaggle. Reference:- [Credit card fraud detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) <br>
+<b>Important points to be noted:-</b>
+1. Due to confidentiality issues the data set available online isn't having the actual feature names. Only Time and Amount are readable ones. While Amount is the total transaction amount, the Time column is the number of seconds elapsed between the transaction in consideration and the very first transaction of the dataset. <br>
+2. The column Class with value 1 indicate fradulent transaction and with value 0 indicate a legitimate transaction. The data set has 284315 legitimate transactions only 492 fradulent transaction. Hence the fradulent transactions are about 0.17% of the data set resulting in a very imbalanced data set. Given this data set limitation, the model selection has the contraint that the model being suggested after accuracy check might change in real life scenario, with live data. <br>
+3. The data set has PCA applied which indicates that the initial stages of data preprocessing wherein the unrequired features, null values, non-categorical values etc., have already been handled. Hence the implementation has code snippets to show how data preprocessing can be handled but as such doesn't add any value to the current data set.
+
+Implementation has been divided into 2 main files. 
+1. [FraudDetectionModelSelection_NUsersData.ipynb](https://github.com/subhashini-sreeni/SLackathon-PaymentFraudDetection-Phoenix/blob/9d2c09add244be908a0e70605b430883a7c94379/implementation/FraudDetectionModelSelection_NUsersData.ipynb) which handles the architectural and flow implementation for scenario that handles 'N' number of users credit card transactions. 
+2. FraudDetectionModelSelection_1UserDatum.ipynb which handles the architectural and flow implementation for scenario that handles 'N' number of credit card transactions that a single user performs, mainly to capture the spending pattern of the user. 
 
 ## Project roadmap
 
