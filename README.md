@@ -7,8 +7,7 @@ Payment fraud detection model
   - [What's the problem?](#whats-the-problem)
   - [How can technology help?](#how-can-technology-help)
   - [The idea](#the-idea)
-- [Demo video](#demo-video)
-- [The architecture and the flow](#the-architecture)
+- [The architecture and the flow](#the-architecture-and-the-flow)
 - [Implementation](#implementation)
 - [Project roadmap](#project-roadmap)
 - [Contributors](#contributors)
@@ -49,8 +48,6 @@ This approach does have a limitation that it is not feasible to come up with a N
   <li> time-frame based transactions based on user’s input (like travel timelines) </li>
 </ol>
   
-  
-## Demo video
 
 ## The architecture and the flow
 ![Video transcription/translation app](https://github.com/subhashini-sreeni/SLackathon-PaymentFraudDetection-Phoenix/blob/2ce06e821cb5faeb0a9d45f79562e9e2631c88bc/Prephase%20-%20Generic%20scenario%20model%20selection.png)
@@ -75,9 +72,9 @@ Implementation has been divided into 2 main files.
 We plan to include the following in coming interations :- <br>
 1. Enhance [FraudDetectionModelSelection_SingleUserData.ipynb](https://github.com/subhashini-sreeni/SLackathon-PaymentFraudDetection-Phoenix/blob/1e3c2b309f2e3f2a8fdfe58385be5dea16cd9a66/implementation/FraudDetectionModelSelection_SingleUserData.ipynb) to include couple other CNN and RNN models.<br>
 2. Implement various triggers like <br>
-&nbsp;&bsp;&nbsp;&bsp;&nbsp;&bsp;&nbsp;&bsp; a) POS terminal swipe <br>
-&nbsp;&bsp;&nbsp;&bsp;&nbsp;&bsp;&nbsp;&bsp; b) Djanfo UI which captures internet transaction of a credit card usage <br>
-3. Integrate with various alert generation system when transaction is found fraudulent <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) POS terminal swipe <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Djanfo UI which captures internet transaction of a credit card usage <br>
+3. Integrate with various alert generation system when transaction is found fraudulent. Refer the [The architecture and the flow](#the-architecture-and-the-flow) section's Execution phase flow for more information <br>
 4. Package the entire solution as a plug and play solution
 
 ## Contributors
