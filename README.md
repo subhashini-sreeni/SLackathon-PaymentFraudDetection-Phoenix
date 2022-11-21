@@ -72,6 +72,13 @@ Implementation has been divided into 2 main files.
 2. [FraudDetectionModelSelection_SingleUserData.ipynb](https://github.com/subhashini-sreeni/SLackathon-PaymentFraudDetection-Phoenix/blob/1e3c2b309f2e3f2a8fdfe58385be5dea16cd9a66/implementation/FraudDetectionModelSelection_SingleUserData.ipynb) which handles the architectural and flow implementation for scenario that handles 'N' number of credit card transactions that a single user performs, mainly to capture the spending pattern of the user. 
 
 ## Project roadmap
+We plan to include the following in coming interations :- <br>
+1. Enhance [FraudDetectionModelSelection_SingleUserData.ipynb](https://github.com/subhashini-sreeni/SLackathon-PaymentFraudDetection-Phoenix/blob/1e3c2b309f2e3f2a8fdfe58385be5dea16cd9a66/implementation/FraudDetectionModelSelection_SingleUserData.ipynb) to include couple other CNN and RNN models.<br>
+2. Implement various triggers like <br>
+&nbsp;&bsp;&nbsp;&bsp;&nbsp;&bsp;&nbsp;&bsp; a) POS terminal swipe <br>
+&nbsp;&bsp;&nbsp;&bsp;&nbsp;&bsp;&nbsp;&bsp; b) Djanfo UI which captures internet transaction of a credit card usage <br>
+3. Integrate with various alert generation system when transaction is found fraudulent <br>
+4. Package the entire solution as a plug and play solution
 
 ## Contributors
 ### Aniruddha Talekar
