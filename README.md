@@ -29,7 +29,7 @@ With the enormous number of digital transactions that take place per second, it 
 
 The aim is to be able to design a binary classification model that will be able to accurately and efficiently detect fraud that is low on false positives and high on true positives. However, the main challenge in designing such a system is in acquiring quality dataset. The datasets that are freely available on Kaggel and such other websites searched through google are highly imbalanced. Majority of the transactions in the datasets are genuine with very less percentage of fraudulent ones. 
 
-The idea here is to build an inclusive system that not only imbibes the way the fraud detection systems are designed generally, but also build models that are based on <b>behavioural spending patterns of the individual users</b>.
+The idea here is to build an inclusive system that not only imbibes the way the fraud detection systems are designed generally, but also build models that are based on <b>behavioral spending patterns of the individual users</b>.
 
 The general design of fraud detection system is to design models based on Logistic regression, Liner SVM, Decision tree, Voting classifier, XGBoost etc., and compare their performances against the accuracy level provided by each model. The high accuracy model will be the desired one. 
 We propose to extend this solution further to develop neural networks based on the individual user’s previous transaction behaviour and develop a pattern around the user behaviour. Once a DNN or CNN model is formed, for every transaction that the user performs the pattern can be observed to flag such a transaction as the one which needs further investigation. 
